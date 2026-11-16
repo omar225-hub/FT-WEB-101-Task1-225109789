@@ -1,0 +1,81 @@
+<!--
+  Name: Omar Ayman Mohamed Elnagar
+  Student ID: 225109789
+  FT-WEB-101 - Task 1 - Profile page
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Ayman Mohamed Elnagar - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Omar Ayman Mohamed Elnagar</h1>
+    <p class="tagline">Computer Science &amp; Engineering student at New Mansoura University</p>
+
+    <nav class="bar">
+      <span class="bar-name">Omar Elnagar</span>
+      <div class="bar-links">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/omar225-hub">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <img src="images/me.jpg" alt="Photo of me smiling in sunglasses and a dark sweater, standing in an outdoor garden">
+
+      <h2 class="section-title">About me</h2>
+      <p class="intro">
+        I am a student who enjoys building things for the web.
+        I am learning HTML, CSS, and JavaScript, and I like turning ideas into clean, working pages.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-icon">&#128187;</span>
+          <h3>Skills</h3>
+          <p>HTML, CSS, and a little JavaScript. Git and GitHub for sharing my work.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon">&#9917;</span>
+          <h3>Hobbies</h3>
+          <p>Football, reading, and gaming with friends.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon">&#127919;</span>
+          <h3>Goals</h3>
+          <p>Become a confident web developer and build real projects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Leave a message</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <input class="submit" type="submit" value="Send">
+      </form>
+    </section>
+
+    <button id="theme-toggle" type="button">Dark / Light</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Omar Ayman Mohamed Elnagar. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
